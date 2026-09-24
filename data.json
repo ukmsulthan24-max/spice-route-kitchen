@@ -1,0 +1,770 @@
+{
+  "restaurant": {
+    "id": "rest_demo",
+    "name": "Spice Route Kitchen",
+    "phone": "+91 98765 43210",
+    "currency": "INR",
+    "open": true,
+    "deliveryFee": 40
+  },
+  "menu": [
+    {
+      "id": "item_biryani",
+      "category": "Biryani",
+      "name": "Chicken Biryani",
+      "description": "Aromatic basmati rice with tender chicken",
+      "price": 90,
+      "available": true
+    },
+    {
+      "id": "item_paneer",
+      "category": "Biryani",
+      "name": "Paneer Biryani",
+      "description": "Fragrant rice with marinated paneer",
+      "price": 90,
+      "available": true
+    },
+    {
+      "id": "item_wrap",
+      "category": "Wraps",
+      "name": "Paneer Tikka Wrap",
+      "description": "Smoky paneer, salad and mint chutney",
+      "price": 110,
+      "available": true
+    },
+    {
+      "id": "item_coke",
+      "category": "Drinks",
+      "name": "Coke",
+      "description": "330ml chilled can",
+      "price": 30,
+      "available": true
+    },
+    {
+      "id": "item_450ca1dcb8",
+      "category": "Biryani",
+      "name": "Mutton Biryani",
+      "description": "Fragrant basmati rice with tender mutton",
+      "price": 90,
+      "available": true
+    },
+    {
+      "id": "item_399f9b92e4",
+      "category": "Biryani",
+      "name": "Beef Biryani",
+      "description": "Aromatic rice with spiced beef",
+      "price": 90,
+      "available": true
+    },
+    {
+      "id": "item_1b8519d361",
+      "category": "Breakfast",
+      "name": "Puri",
+      "description": "Fluffy deep-fried bread served fresh",
+      "price": 40,
+      "available": true
+    },
+    {
+      "id": "item_d11e6d93cf",
+      "category": "Breakfast",
+      "name": "Idli",
+      "description": "Soft steamed rice cakes",
+      "price": 35,
+      "available": true
+    },
+    {
+      "id": "item_ce98ca175d",
+      "category": "Sides",
+      "name": "Sambar",
+      "description": "South Indian lentil and vegetable stew",
+      "price": 40,
+      "available": true
+    },
+    {
+      "id": "item_0cf370b90c",
+      "category": "Rice",
+      "name": "Boiled Rice",
+      "description": "Steamed white rice",
+      "price": 80,
+      "available": true
+    },
+    {
+      "id": "item_a80ffc47e2",
+      "category": "Curries",
+      "name": "Spicy Chicken Mangalorean Curry",
+      "description": "Fiery coastal Mangalorean chicken curry",
+      "price": 60,
+      "available": true
+    },
+    {
+      "id": "item_93b2e40f20",
+      "category": "Breakfast",
+      "name": "Kalthappa",
+      "description": "Traditional rice cake cooked on a stone pan",
+      "price": 70,
+      "available": true
+    },
+    {
+      "id": "item_f7ec92653e",
+      "category": "Curries",
+      "name": "Egg Masala",
+      "description": "Eggs in a rich spiced masala gravy",
+      "price": 60,
+      "available": true
+    },
+    {
+      "id": "item_4cd58bcf87",
+      "category": "Rice",
+      "name": "Ghee Rice",
+      "description": "Fragrant basmati rice cooked with ghee",
+      "price": 80,
+      "available": true
+    },
+    {
+      "id": "item_c7b572e596",
+      "category": "Breakfast",
+      "name": "Pundi",
+      "description": "Steamed rice dumplings, Mangalorean style",
+      "price": 65,
+      "available": true
+    },
+    {
+      "id": "item_379f05c057",
+      "category": "Curries",
+      "name": "Egg Roast",
+      "description": "Spiced roasted eggs with onion and masala",
+      "price": 60,
+      "available": true
+    },
+    {
+      "id": "item_44d49636ca",
+      "category": "Vegetable Sides",
+      "name": "Vegetable Kurma",
+      "description": "Mixed vegetables in a mild coconut gravy",
+      "price": 40,
+      "available": true
+    },
+    {
+      "id": "item_2227a43b9c",
+      "category": "Vegetable Sides",
+      "name": "Cabbage Thoran",
+      "description": "Fresh cabbage tempered with coconut and spices",
+      "price": 40,
+      "available": true
+    },
+    {
+      "id": "item_28106b04c6",
+      "category": "Vegetable Sides",
+      "name": "Potato Sukka",
+      "description": "Dry coastal-style potato masala",
+      "price": 40,
+      "available": true
+    },
+    {
+      "id": "item_28bf6bbb0c",
+      "category": "Curries",
+      "name": "Chicken Sukka",
+      "description": "Dry coastal chicken cooked with roasted spices and coconut",
+      "price": 60,
+      "available": true
+    },
+    {
+      "id": "item_7c5d3126d6",
+      "category": "Curries",
+      "name": "Beef Sukka",
+      "description": "Dry beef preparation with roasted spices and coconut",
+      "price": 60,
+      "available": true
+    },
+    {
+      "id": "item_chicken_wrap",
+      "name": "Chicken Wrap",
+      "description": "Spiced chicken with fresh salad in a soft wrap",
+      "available": true,
+      "price": 110,
+      "category": "Wraps"
+    },
+    {
+      "id": "item_egg_wrap",
+      "name": "Egg Wrap",
+      "description": "Masala egg with onion and chutney in a soft wrap",
+      "available": true,
+      "price": 110,
+      "category": "Wraps"
+    },
+    {
+      "id": "item_veg_wrap",
+      "name": "Vegetable Wrap",
+      "description": "Seasoned vegetables with salad and chutney in a soft wrap",
+      "available": true,
+      "price": 110,
+      "category": "Wraps"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust_demo",
+      "name": "Aarav Sharma",
+      "phone": "+91 90000 00001",
+      "address": "12 MG Road, Bengaluru",
+      "createdAt": "2026-09-24T05:06:36.568Z"
+    },
+    {
+      "id": "cust_7a55185e55",
+      "name": "Test Customer",
+      "phone": "+91 91111 11111",
+      "address": "",
+      "createdAt": "2026-09-24T05:06:36.644Z"
+    },
+    {
+      "id": "cust_3e557a2a79",
+      "name": "New customer",
+      "phone": "+91",
+      "address": "",
+      "createdAt": "2026-09-24T05:12:31.658Z"
+    },
+    {
+      "id": "cust_04735d8fcb",
+      "name": "Smoke Tester",
+      "phone": "+91 99999 00000",
+      "address": "",
+      "createdAt": "2026-09-24T05:25:08.629Z"
+    },
+    {
+      "id": "cust_d2ff60c82e",
+      "name": "ik",
+      "phone": "5855554",
+      "address": "almmk",
+      "createdAt": "2026-09-24T05:28:01.270Z"
+    },
+    {
+      "id": "cust_ea434132f4",
+      "name": "Demo Customer",
+      "phone": "+91 92222 22222",
+      "address": "",
+      "createdAt": "2026-09-24T05:32:25.515Z"
+    },
+    {
+      "id": "cust_cd8708e04d",
+      "name": "xc",
+      "phone": "456369",
+      "address": "alkdm",
+      "createdAt": "2026-09-24T08:59:01.195Z"
+    },
+    {
+      "id": "cust_9d697d19bb",
+      "name": "alex",
+      "phone": "452222",
+      "address": "akklkd",
+      "createdAt": "2026-09-24T09:25:54.928Z"
+    },
+    {
+      "id": "cust_823536665d",
+      "name": "l",
+      "phone": "44",
+      "address": "455",
+      "createdAt": "2026-09-24T09:27:42.187Z"
+    },
+    {
+      "id": "cust_0d60dae1a3",
+      "name": "h",
+      "phone": "41",
+      "address": "nn",
+      "createdAt": "2026-09-24T09:28:19.529Z"
+    },
+    {
+      "id": "cust_9c7713d642",
+      "name": "jm",
+      "phone": "52",
+      "address": "nj",
+      "createdAt": "2026-09-24T09:29:57.626Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_demo",
+      "customerId": "cust_demo",
+      "customerName": "Aarav Sharma",
+      "phone": "+91 90000 00001",
+      "status": "open",
+      "labels": [
+        "Order in progress"
+      ],
+      "unread": 0,
+      "lastMessageAt": "2026-09-24T05:20:34.186Z",
+      "messages": [
+        {
+          "id": "msg_1",
+          "direction": "inbound",
+          "text": "Hi, I want two chicken biryanis",
+          "at": "2026-09-24T05:06:36.569Z"
+        },
+        {
+          "id": "msg_2",
+          "direction": "outbound",
+          "text": "Sure! I can help you place that order. Please use the menu or reply with your items.",
+          "at": "2026-09-24T05:06:36.569Z"
+        },
+        {
+          "id": "msg_1e5ec5734c",
+          "direction": "outbound",
+          "text": "ok",
+          "at": "2026-09-24T05:20:34.186Z"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_ede174b8cb",
+      "number": "SRK-1011",
+      "customerId": "cust_9c7713d642",
+      "customerName": "jm",
+      "items": [
+        {
+          "menuItemId": "item_biryani",
+          "name": "Chicken Biryani",
+          "quantity": 1,
+          "unitPrice": 90
+        }
+      ],
+      "fulfillment": "pickup",
+      "address": "nj",
+      "subtotal": 90,
+      "deliveryFee": 0,
+      "total": 90,
+      "paymentStatus": "paid",
+      "paymentMethod": "demo_card",
+      "status": "awaiting_confirmation",
+      "note": "",
+      "createdAt": "2026-09-24T09:29:57.626Z",
+      "updatedAt": "2026-09-24T09:29:57.633Z"
+    },
+    {
+      "id": "ord_c9f1859879",
+      "number": "SRK-1010",
+      "customerId": "cust_0d60dae1a3",
+      "customerName": "h",
+      "items": [
+        {
+          "menuItemId": "item_7c5d3126d6",
+          "name": "Beef Sukka",
+          "quantity": 1,
+          "unitPrice": 60
+        }
+      ],
+      "fulfillment": "delivery",
+      "address": "nn",
+      "subtotal": 60,
+      "deliveryFee": 40,
+      "total": 100,
+      "paymentStatus": "paid",
+      "paymentMethod": "demo_card",
+      "status": "awaiting_confirmation",
+      "note": "",
+      "createdAt": "2026-09-24T09:28:19.529Z",
+      "updatedAt": "2026-09-24T09:28:19.536Z"
+    },
+    {
+      "id": "ord_c09ed456c3",
+      "number": "SRK-1009",
+      "customerId": "cust_823536665d",
+      "customerName": "l",
+      "items": [
+        {
+          "menuItemId": "item_veg_wrap",
+          "name": "Vegetable Wrap",
+          "quantity": 1,
+          "unitPrice": 110
+        }
+      ],
+      "fulfillment": "delivery",
+      "address": "455",
+      "subtotal": 110,
+      "deliveryFee": 40,
+      "total": 150,
+      "paymentStatus": "paid",
+      "paymentMethod": "demo_card",
+      "status": "awaiting_confirmation",
+      "note": "",
+      "createdAt": "2026-09-24T09:27:42.188Z",
+      "updatedAt": "2026-09-24T09:27:42.195Z"
+    },
+    {
+      "id": "ord_2405ac5ca5",
+      "number": "SRK-1008",
+      "customerId": "cust_9d697d19bb",
+      "customerName": "alex",
+      "items": [
+        {
+          "menuItemId": "item_biryani",
+          "name": "Chicken Biryani",
+          "quantity": 1,
+          "unitPrice": 90
+        },
+        {
+          "menuItemId": "item_f7ec92653e",
+          "name": "Egg Masala",
+          "quantity": 1,
+          "unitPrice": 60
+        },
+        {
+          "menuItemId": "item_coke",
+          "name": "Coke",
+          "quantity": 1,
+          "unitPrice": 30
+        }
+      ],
+      "fulfillment": "pickup",
+      "address": "akklkd",
+      "subtotal": 180,
+      "deliveryFee": 0,
+      "total": 180,
+      "paymentStatus": "paid",
+      "paymentMethod": "demo_card",
+      "status": "awaiting_confirmation",
+      "note": "souce",
+      "createdAt": "2026-09-24T09:25:54.928Z",
+      "updatedAt": "2026-09-24T09:25:54.935Z"
+    },
+    {
+      "id": "ord_5fa03314a5",
+      "number": "SRK-1007",
+      "customerId": "cust_cd8708e04d",
+      "customerName": "xc",
+      "items": [
+        {
+          "menuItemId": "item_biryani",
+          "name": "Chicken Biryani",
+          "quantity": 1,
+          "unitPrice": 220
+        }
+      ],
+      "fulfillment": "pickup",
+      "address": "alkdm",
+      "subtotal": 220,
+      "deliveryFee": 0,
+      "total": 220,
+      "paymentStatus": "paid",
+      "paymentMethod": "demo_card",
+      "status": "confirmed",
+      "note": "",
+      "createdAt": "2026-09-24T08:59:01.195Z",
+      "updatedAt": "2026-09-24T09:09:07.265Z"
+    },
+    {
+      "id": "ord_c7b6c6ad38",
+      "number": "SRK-1006",
+      "customerId": "cust_ea434132f4",
+      "customerName": "Demo Customer",
+      "items": [
+        {
+          "menuItemId": "item_biryani",
+          "name": "Chicken Biryani",
+          "quantity": 1,
+          "unitPrice": 220
+        }
+      ],
+      "fulfillment": "pickup",
+      "address": "",
+      "subtotal": 220,
+      "deliveryFee": 0,
+      "total": 220,
+      "paymentStatus": "paid",
+      "paymentMethod": "demo_card",
+      "status": "delivered",
+      "note": "",
+      "createdAt": "2026-09-24T05:32:25.515Z",
+      "updatedAt": "2026-09-24T09:09:16.324Z"
+    },
+    {
+      "id": "ord_196b30d264",
+      "number": "SRK-1005",
+      "customerId": "cust_d2ff60c82e",
+      "customerName": "ik",
+      "items": [
+        {
+          "menuItemId": "item_biryani",
+          "name": "Chicken Biryani",
+          "quantity": 1,
+          "unitPrice": 220
+        }
+      ],
+      "fulfillment": "pickup",
+      "address": "almmk",
+      "subtotal": 220,
+      "deliveryFee": 0,
+      "total": 220,
+      "paymentStatus": "paid",
+      "paymentMethod": "demo_card",
+      "status": "confirmed",
+      "note": "add spuce",
+      "createdAt": "2026-09-24T05:28:01.270Z",
+      "updatedAt": "2026-09-24T09:09:11.808Z"
+    },
+    {
+      "id": "ord_663779be1c",
+      "number": "SRK-1004",
+      "customerId": "cust_04735d8fcb",
+      "customerName": "Smoke Tester",
+      "items": [
+        {
+          "menuItemId": "item_coke",
+          "name": "Coke",
+          "quantity": 2,
+          "unitPrice": 60
+        }
+      ],
+      "fulfillment": "pickup",
+      "address": "",
+      "subtotal": 120,
+      "deliveryFee": 0,
+      "total": 120,
+      "paymentStatus": "paid",
+      "paymentMethod": "demo_card",
+      "status": "confirmed",
+      "note": "",
+      "createdAt": "2026-09-24T05:25:08.629Z",
+      "updatedAt": "2026-09-24T05:27:16.960Z"
+    },
+    {
+      "id": "ord_15688a0f96",
+      "number": "SRK-1003",
+      "customerId": "cust_3e557a2a79",
+      "customerName": "New customer",
+      "items": [
+        {
+          "menuItemId": "item_biryani",
+          "name": "Chicken Biryani",
+          "quantity": 1,
+          "unitPrice": 220
+        }
+      ],
+      "fulfillment": "delivery",
+      "address": "",
+      "subtotal": 220,
+      "deliveryFee": 40,
+      "total": 260,
+      "paymentStatus": "pending",
+      "status": "awaiting_confirmation",
+      "note": "",
+      "createdAt": "2026-09-24T05:12:31.658Z",
+      "updatedAt": "2026-09-24T05:12:31.658Z"
+    },
+    {
+      "id": "ord_0212fdf288",
+      "number": "SRK-1002",
+      "customerId": "cust_7a55185e55",
+      "customerName": "Test Customer",
+      "items": [
+        {
+          "menuItemId": "item_wrap",
+          "name": "Paneer Tikka Wrap",
+          "quantity": 2,
+          "unitPrice": 160
+        }
+      ],
+      "fulfillment": "pickup",
+      "address": "",
+      "subtotal": 320,
+      "deliveryFee": 0,
+      "total": 320,
+      "paymentStatus": "pending",
+      "status": "awaiting_confirmation",
+      "note": "",
+      "createdAt": "2026-09-24T05:06:36.644Z",
+      "updatedAt": "2026-09-24T05:06:36.644Z"
+    },
+    {
+      "id": "ord_demo",
+      "number": "SRK-1001",
+      "customerId": "cust_demo",
+      "customerName": "Aarav Sharma",
+      "items": [
+        {
+          "menuItemId": "item_biryani",
+          "name": "Chicken Biryani",
+          "quantity": 2,
+          "unitPrice": 220
+        }
+      ],
+      "fulfillment": "delivery",
+      "address": "12 MG Road, Bengaluru",
+      "subtotal": 440,
+      "deliveryFee": 40,
+      "total": 480,
+      "paymentStatus": "pending",
+      "status": "confirmed",
+      "note": "",
+      "createdAt": "2026-09-24T05:06:36.569Z",
+      "updatedAt": "2026-09-24T05:06:36.569Z"
+    }
+  ],
+  "audit": [
+    {
+      "id": "audit_07c407ff75",
+      "action": "order.created",
+      "entityId": "ord_0212fdf288",
+      "at": "2026-09-24T05:06:36.644Z"
+    },
+    {
+      "id": "audit_5608b34f07",
+      "action": "order.created",
+      "entityId": "ord_15688a0f96",
+      "at": "2026-09-24T05:12:31.659Z"
+    },
+    {
+      "id": "audit_181b4de79f",
+      "action": "order.created",
+      "entityId": "ord_663779be1c",
+      "at": "2026-09-24T05:25:08.629Z"
+    },
+    {
+      "id": "audit_01175160c3",
+      "action": "payment.completed",
+      "entityId": "ord_663779be1c",
+      "at": "2026-09-24T05:25:08.678Z"
+    },
+    {
+      "id": "audit_5f085cc0fb",
+      "action": "order.status",
+      "entityId": "ord_663779be1c",
+      "at": "2026-09-24T05:27:16.960Z"
+    },
+    {
+      "id": "audit_0e720f09e3",
+      "action": "order.created",
+      "entityId": "ord_196b30d264",
+      "at": "2026-09-24T05:28:01.271Z"
+    },
+    {
+      "id": "audit_54d21b0447",
+      "action": "payment.completed",
+      "entityId": "ord_196b30d264",
+      "at": "2026-09-24T05:28:04.835Z"
+    },
+    {
+      "id": "audit_385f10624f",
+      "action": "order.created",
+      "entityId": "ord_c7b6c6ad38",
+      "at": "2026-09-24T05:32:25.515Z"
+    },
+    {
+      "id": "audit_51d2ee26e3",
+      "action": "payment.completed",
+      "entityId": "ord_c7b6c6ad38",
+      "at": "2026-09-24T05:32:25.591Z"
+    },
+    {
+      "id": "audit_e72a0946d3",
+      "action": "order.created",
+      "entityId": "ord_5fa03314a5",
+      "at": "2026-09-24T08:59:01.195Z"
+    },
+    {
+      "id": "audit_37fd60065b",
+      "action": "payment.completed",
+      "entityId": "ord_5fa03314a5",
+      "at": "2026-09-24T08:59:05.190Z"
+    },
+    {
+      "id": "audit_a2e8ba7aa2",
+      "action": "order.status",
+      "entityId": "ord_5fa03314a5",
+      "at": "2026-09-24T09:09:07.267Z"
+    },
+    {
+      "id": "audit_2a45f18a03",
+      "action": "order.status",
+      "entityId": "ord_c7b6c6ad38",
+      "at": "2026-09-24T09:09:08.674Z"
+    },
+    {
+      "id": "audit_abd5e97540",
+      "action": "order.status",
+      "entityId": "ord_196b30d264",
+      "at": "2026-09-24T09:09:11.808Z"
+    },
+    {
+      "id": "audit_359006e573",
+      "action": "order.status",
+      "entityId": "ord_c7b6c6ad38",
+      "at": "2026-09-24T09:09:13.741Z"
+    },
+    {
+      "id": "audit_55446e6dc8",
+      "action": "order.status",
+      "entityId": "ord_c7b6c6ad38",
+      "at": "2026-09-24T09:09:14.757Z"
+    },
+    {
+      "id": "audit_c4f5dda119",
+      "action": "order.status",
+      "entityId": "ord_c7b6c6ad38",
+      "at": "2026-09-24T09:09:15.573Z"
+    },
+    {
+      "id": "audit_6964e3d528",
+      "action": "order.status",
+      "entityId": "ord_c7b6c6ad38",
+      "at": "2026-09-24T09:09:16.324Z"
+    },
+    {
+      "id": "audit_b08a3c0c32",
+      "action": "order.created",
+      "entityId": "ord_2405ac5ca5",
+      "at": "2026-09-24T09:25:54.928Z"
+    },
+    {
+      "id": "audit_6278a88af8",
+      "action": "payment.completed",
+      "entityId": "ord_2405ac5ca5",
+      "at": "2026-09-24T09:25:54.935Z"
+    },
+    {
+      "id": "audit_8736c1d867",
+      "action": "order.created",
+      "entityId": "ord_c09ed456c3",
+      "at": "2026-09-24T09:27:42.188Z"
+    },
+    {
+      "id": "audit_ba9b2c82bc",
+      "action": "payment.completed",
+      "entityId": "ord_c09ed456c3",
+      "at": "2026-09-24T09:27:42.195Z"
+    },
+    {
+      "id": "audit_d0a83c3d1d",
+      "action": "order.created",
+      "entityId": "ord_c9f1859879",
+      "at": "2026-09-24T09:28:19.529Z"
+    },
+    {
+      "id": "audit_9d5730c716",
+      "action": "payment.completed",
+      "entityId": "ord_c9f1859879",
+      "at": "2026-09-24T09:28:19.536Z"
+    },
+    {
+      "id": "audit_a8a408a186",
+      "action": "order.created",
+      "entityId": "ord_ede174b8cb",
+      "at": "2026-09-24T09:29:57.626Z"
+    },
+    {
+      "id": "audit_c960532ffe",
+      "action": "payment.completed",
+      "entityId": "ord_ede174b8cb",
+      "at": "2026-09-24T09:29:57.633Z"
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff_demo",
+      "name": "Asha (Manager)",
+      "email": "admin@spiceroute.local",
+      "password": "demo123",
+      "role": "manager"
+    }
+  ]
+}

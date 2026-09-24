@@ -1,0 +1,12 @@
+{
+  "name": "restaurant-whatsapp-ordering-mvp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Runnable restaurant and cloud-kitchen WhatsApp ordering MVP",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+restaurant.sqlite
+restaurant.sqlite-shm
+restaurant.sqlite-wal
+.env
+.env.*
+!.env.example
